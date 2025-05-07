@@ -89,7 +89,7 @@ end
 
 Tuy nhiên, nếu kiểm tra ở client thì việc exploiter đọc script, decompile và patch lại cũng rất đơn giản bằng cách **disable script** hoặc **hook function**.
 
-Ví dụ về hook function:
+Ví dụ về hookfunction:
 
 ```lua
 hookfunction(game.Players.LocalPlayer.Kick, function()
